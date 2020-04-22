@@ -1,0 +1,259 @@
+* {
+    /* font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0; /* отступы поля ввода */
+    list-style-type: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container1 {
+    background-image: url("../img/orel.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* маштабирует картинку при уменьшении */
+    max-height: 1000px;
+    min-height: 568px;
+    background-position-x: center; /* 50% */
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+.menu {
+    padding-top: 12px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    padding: 0 27px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.3s;
+    padding-bottom: 10px;
+}
+
+.menu ul li:hover a,
+.menu ul a:focus {
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+    transition: 0.3s;
+}
+
+.menu ul li:hover i,
+.menu ul i:focus {
+    color: #fce38a;
+    transition: 0.3s;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2{
+    font-family: "Kaushan Script", cursive;
+    font-size: 72px;
+    font-weight: 400;
+    padding-top: 12vh;
+}
+
+.content p{
+    font-size: 150px;
+    font-weight: 700;
+    padding: 30px 150px 0;
+    text-transform: uppercase;
+    line-height: 0.95;
+    padding-top: 30px;
+}
+
+.content .g_line{
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+
+.container1 .btn{
+    text-decoration: none; /* убрали подчёркивание */
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 21px 42px;
+    border: 3px solid white;
+    text-transform: uppercase;
+    color: white;
+}
+
+.container1 .btn:hover {
+    border-color:  #fce38a;
+    color: #fce38a;
+    transition: 0.3s;
+}
+
+.container1 .btn:focus {
+    border-color:  #fce38a;
+    color: #fce38a;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+.cards .item {
+    width: 32%;
+    position: relative;
+}
+
+.container2{
+    text-align: center;
+}
+
+.container2 h4{
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    margin-top: 90px;
+    font-weight: 400;
+}
+
+.container2 h2{
+    font-size: 24px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.container2 .g_line_red{
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.container2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+
+.container3{
+    background-color: #95e1d3;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* временно */
+    margin-bottom: 100px;
+}
+
+.cards_content{
+    display: flex;
+    justify-content: center;
+}
+
+.cards_content div:first-child{
+    border-left: 0.1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.cards_content div{
+    width: 239px;
+    border-right: 0.1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.cards_content h1{
+    font-size: 72px;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+
+.cards_content p{
+    font-size: 14px;
+    color: white;
+    padding-bottom: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
