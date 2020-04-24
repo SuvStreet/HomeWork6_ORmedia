@@ -257,7 +257,7 @@ header {
 .container4 .grid_icon .item_icon{
     background-color: white;
     /* border: 1px solid black; */
-    padding-left: 10px;
+    padding-left: 30px;
     padding-top: 10px;
     height: 125px;
 }
@@ -273,23 +273,22 @@ header {
     padding-top: 50px;
 }
 
-
-.container4 .grid_icon h4{
+.container4 .grid_icon .item_icon h4{
     font-size: 14px;
     text-transform: uppercase;
-    padding-left: 50px;
-    margin-top: -40px;
+    padding-left: 65px;
+    margin-top: -37px;
 }
 
-.container4 .grid_icon p{
+.container4 .grid_icon .item_icon p{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     margin-top: 5px;
     text-align: left;
-    padding-left: 50px;
-    color: #95e1d3;;
+    padding-left: 65px;
+    color: #95e1d3;
+    padding-right: 25px;
 }
-
 
 
 
