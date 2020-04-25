@@ -66,23 +66,14 @@
     opacity: 0.8;
 }
 
-.grid_cards .item .icon_cards .text{
-    position: absolute;
-    left: 21%;
-    top: 52%;
-    line-height: 1.7;
-    z-index: 1;
-    text-align: center;
-}
-
 .grid_cards .item .icon_cards i{
     position: absolute;
-    top: 35%;
-    left: 45%;
+    top: 34%;
+    left: calc(50% - 17px);
     font-size: 35px;
     z-index: 1;
     color: white;
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s;
 }
 .grid_cards .item:hover .icon_cards i{
@@ -90,12 +81,21 @@
     transition: 0.5s;
 }
 
+.grid_cards .item .icon_cards .text{
+    position: absolute;
+    left: calc(50% - 86px);
+    top: 52%;
+    line-height: 1.7;
+    z-index: 1;
+    text-align: center;
+}
+
 .grid_cards .item .icon_cards .text h4 {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
     color: white;
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s;
 }
 
@@ -110,7 +110,7 @@
     color: white;
     font-weight: 300;
     font-style: italic;
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s;
 } 
 
