@@ -186,6 +186,7 @@
     }
     .grid_cards .item:nth-child(3) {
         grid-row: 3/5;
+    }
 }
 
 @media (max-width: 400px) {

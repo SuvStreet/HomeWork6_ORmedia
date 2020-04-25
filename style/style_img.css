@@ -39,3 +39,82 @@
     font-weight: bold;
     font-size: 15px;
 }
+
+/* Img container10 */
+
+.grid_cards .item{
+	position: relative;    
+	line-height: 0;
+}
+
+.grid_cards .item:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(to bottom, #e37879, #eed181);
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+ .grid_cards .item:hover:after {
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.grid_cards .item .icon_cards .text{
+    position: absolute;
+    left: 21%;
+    top: 52%;
+    line-height: 1.7;
+    z-index: 1;
+    text-align: center;
+}
+
+.grid_cards .item .icon_cards i{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    font-size: 35px;
+    z-index: 1;
+    color: white;
+    opacity: 1;
+    transition: 0.5s;
+}
+.grid_cards .item:hover .icon_cards i{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.grid_cards .item .icon_cards .text h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.grid_cards .item:hover .icon_cards .text h4 {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.grid_cards .item .icon_cards .text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    opacity: 1;
+    transition: 0.5s;
+} 
+
+.grid_cards .item:hover .icon_cards .text p {
+    opacity: 1;
+    transition: 0.5s;
+}
