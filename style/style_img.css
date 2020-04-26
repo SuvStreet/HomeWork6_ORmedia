@@ -73,7 +73,7 @@
     font-size: 35px;
     z-index: 1;
     color: white;
-    opacity: 1;
+    opacity: 0;
     transition: 0.5s;
 }
 .grid_cards .item:hover .icon_cards i{
@@ -95,7 +95,7 @@
     text-transform: uppercase;
     font-size: 14px;
     color: white;
-    opacity: 1;
+    opacity: 0;
     transition: 0.5s;
 }
 
@@ -110,7 +110,7 @@
     color: white;
     font-weight: 300;
     font-style: italic;
-    opacity: 1;
+    opacity: 0;
     transition: 0.5s;
 } 
 
