@@ -18,6 +18,8 @@ body {
     margin: 0 auto;
 }
 
+/* 1 контейнер */
+
 .center {
     max-width: 1200px;
     width: 90%;
@@ -87,14 +89,14 @@ header {
     text-align: center;
 }
 
-.content h2{
+.content h2 {
     font-family: "Kaushan Script", cursive;
     font-size: 72px;
     font-weight: 400;
     padding-top: 12vh;
 }
 
-.content p{
+.content p {
     font-size: 150px;
     font-weight: 700;
     padding: 30px 150px 0;
@@ -103,7 +105,7 @@ header {
     padding-top: 30px;
 }
 
-.content .g_line{
+.content .g_line {
     width: 60px;
     height: 3px;
     background-color: white;
@@ -113,7 +115,7 @@ header {
     margin-bottom: 55px;
 }
 
-.container1 .btn{
+.container1 .btn {
     text-decoration: none; /* убрали подчёркивание */
     font-size: 14px;
     font-weight: bold;
@@ -125,13 +127,13 @@ header {
 }
 
 .container1 .btn:hover {
-    border-color:  #fce38a;
+    border-color: #fce38a;
     color: #fce38a;
     transition: 0.3s;
 }
 
 .container1 .btn:focus {
-    border-color:  #fce38a;
+    border-color: #fce38a;
     color: #fce38a;
 }
 
@@ -148,24 +150,27 @@ header {
     position: relative;
 }
 
-.container2{
+/* 2 контейнер */
+
+.container2 {
     text-align: center;
 }
 
-.container2 h4{
+.container2 h4 {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     margin-top: 90px;
     font-weight: 400;
 }
 
-.container2 h2{
-    font-size: 24px;
+.container2 h2 {
+    font-size: 30px;
     margin-top: 20px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
-.container2 .g_line_red{
+.container2 .g_line_red {
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -175,50 +180,56 @@ header {
     margin-bottom: 45px;
 }
 
-.container2 p{
-    font-family: 'Roboto', sans-serif;
+.container2 p {
+    font-family: "Roboto", sans-serif;
     font-size: 15px;
     color: #999999;
 }
 
-.container3{
+/* 3 контейнер */
+
+.container3 {
     background-color: #95e1d3;
     text-align: center;
     text-transform: uppercase;
 }
 
-.cards_content{
+.cards_content {
     display: flex;
     justify-content: center;
 }
 
-.cards_content div:first-child{
+.cards_content div:first-child {
     border-left: 0.1px;
     border-color: white;
     border-style: solid;
 }
 
-.cards_content div{
+.cards_content div {
     width: 239px;
     border-right: 0.1px;
     border-color: white;
     border-style: solid;
 }
 
-.cards_content h1{
+.cards_content h1 {
     font-size: 72px;
     color: white;
     padding-top: 90px;
     padding-bottom: 15px;
+    font-weight: 700;
 }
 
-.cards_content p{
+.cards_content p {
     font-size: 14px;
     color: white;
     padding-bottom: 90px;
+    font-weight: 500;
 }
 
-.container4 p{
+/* 4 контейнер */
+
+.container4 p {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     margin-top: 100px;
@@ -226,15 +237,15 @@ header {
     text-align: center;
 }
 
-.container4 h2{
+.container4 h2 {
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     margin-top: 20px;
     text-transform: uppercase;
 }
 
-.container4 .g_line_red2{
+.container4 .g_line_red2 {
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -244,7 +255,7 @@ header {
     margin-bottom: 50px;
 }
 
-.container4 .grid_icon{
+.container4 .grid_icon {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -254,34 +265,32 @@ header {
     margin-bottom: 100px;
 }
 
-.container4 .grid_icon .item_icon{
+.container4 .grid_icon .item_icon {
     background-color: white;
-    /* border: 1px solid black; */
     padding-left: 30px;
-    padding-top: 10px;
-    height: 125px;
+    height: auto;
 }
 
-.container4 .grid_icon .item_icon i{
+.container4 .grid_icon .item_icon i {
     color: #95e1d3;
     font-size: 35px;
 }
 
 .container4 .grid_icon .item_icon:nth-child(4) i,
 .container4 .grid_icon .item_icon:nth-child(5) i,
-.container4 .grid_icon .item_icon:nth-child(6) i{
+.container4 .grid_icon .item_icon:nth-child(6) i {
     padding-top: 50px;
 }
 
-.container4 .grid_icon .item_icon h4{
+.container4 .grid_icon .item_icon h4 {
     font-size: 14px;
     text-transform: uppercase;
     padding-left: 65px;
     margin-top: -37px;
 }
 
-.container4 .grid_icon .item_icon p{
-    font-family: 'Roboto', sans-serif;
+.container4 .grid_icon .item_icon p {
+    font-family: "Roboto", sans-serif;
     font-size: 15px;
     margin-top: 5px;
     text-align: left;
@@ -290,48 +299,430 @@ header {
     padding-right: 25px;
 }
 
+/* 5 контейнер */
 
+.container5 {
+    background-image: url("../img/cont5/baground_cont5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    /* урать при пополнении контента */
+    height: 940px;
+}
 
+/* 6 контейнер */
 
+.container6 .container6_add .text1_h4_cont6 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+}
 
+.container6 .container6_add .text2_h2_cont6 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #333333;
+}
 
+.container6 .line_red_cont6 {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: block;
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 45px;
+}
 
+.container6 .text3_p_cont6 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 95px;
+    width: 85%;
+}
 
+.container6 .container6_add .row .accordion .card .blok_bg {
+    background-color: white;
+}
 
+.container6 .container6_add img {
+    max-width: 100%;
+    border-radius: 0px !important;
+}
 
+.container6 .container6_add .row .indent_card {
+    margin-bottom: 10px;
+    border-bottom: 1px #e5e5e5 solid;
+    border-radius: 0px;
+}
 
+.container6 .container6_add .row .indent_card:last-child {
+    margin-bottom: 0px;
+}
 
+.container6 .container6_add .card_text{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #999999;
+    font-style: italic;
+    overflow: auto;
+    height: 117px;
+    padding-top: 0px;
+    margin-right: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+::-webkit-scrollbar {
+    width: 5px;
+    position: absolute;
+    /* height: 140px; */
+}
 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(245, 245, 245, 0.3);
+    top: 10px;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(149, 225, 211,0.5); 
+}
 
+.container6
+    .container6_add
+    .row
+    .accordion
+    .card
+    .card-header
+    .icon1_h5_cont6 {
+    position: relative;
+}
 
+.container6
+    .container6_add
+    .row
+    .accordion
+    .card
+    .card-header
+    .icon1_h5_cont6::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    content: "\f030";
+    color: #95e1d3;
+    left: 0px;
+    position: absolute;
+}
 
+.container6
+    .container6_add
+    .row
+    .accordion
+    .card
+    .card-header
+    .icon2_h5_cont6 {
+    position: relative;
+}
 
+.container6
+    .container6_add
+    .row
+    .accordion
+    .card
+    .card-header
+    .icon2_h5_cont6::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    content: "\f1de";
+    color: #95e1d3;
+    left: 0px;
+    position: absolute;
+}
 
+.container6
+    .container6_add
+    .row
+    .accordion
+    .card
+    .card-header
+    .icon3_h5_cont6 {
+    position: relative;
+}
 
+.container6
+    .container6_add
+    .row
+    .accordion
+    .card
+    .card-header
+    .icon3_h5_cont6::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    content: "\f140";
+    color: #95e1d3;
+    left: 0px;
+    position: absolute;
+}
 
+.container6
+    .container6_add
+    .row
+    .accordion
+    .card
+    .card-header
+    .panel-title {
+    position: relative;
+}
 
+.container6
+    .container6_add
+    .row
+    .accordion
+    .card
+    .card-header
+    .panel-title::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    content: "\f107";
+    color: #95e1d3;
+    top: -5px;
+    right: 0px;
+    position: absolute;
+}
 
+.container6
+    .container6_add
+    .row
+    .accordion
+    .card
+    .card-header
+    .panel-title[aria-expanded="true"]::after {
+    content: "\f106";
+}
 
+.container6 .container6_add .text4_btn_cont6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    padding-left: 50px;
+}
 
+/* 7 контейнер */
 
+/* 8 контейнер */
 
-.grid_cards{
+/* 9 контейнер */
+
+.container9 {
+    background-color: #f8f8f8;
+
+    /* урать при пополнении контента */
+    margin-top: 100px;
+}
+
+.container9 .container9_add {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* 10 контейнер */
+
+.container10 .text1_h4_cont10 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #333333;
+}
+
+.container10 .text2_h2_cont10 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #333333;
+}
+
+.container10 .line_red_cont10 {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: block;
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 45px;
+}
+
+.container10 .text3_p_cont10 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #999999;
+    padding-bottom: 105px;
+    width: 85%;
+}
+
+.grid_cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; /* repeat(1fr, 4) */
     grid-template-rows: repeat(1fr, 2);
     line-height: 0;
 }
 
-.grid_cards .item:nth-child(3){
+.grid_cards .item:nth-child(3) {
     grid-column: 3/4;
     grid-row: 1/3;
 }
 
-.grid_cards .item img{
+.grid_cards .item img {
     max-width: 100%;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+/* 11 контейнер */
+
+.container11 {
+    /* урать при пополнении контента */
+    height: 440px;
+}
+
+/* 12 контейнер */
+
+.container12 {
+    background-image: url("../img/cont12/cont12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container12 .container_add {
+    padding-top: 85px;
+    padding-bottom: 62px;
+}
+
+.container12 .container_add .text1_cont12 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #333333;
+}
+
+.container12 .container_add .text2_cont12 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.container12 .container_add .line_red_heading {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: block;
+    margin-top: 43px;
+    margin-bottom: 87px;
+    margin-left: calc(50% - 30px);
+}
+
+.container12 .container_add .our_item {
+    padding-bottom: 70px;
+}
+
+.container12 .container_add .our_item h5 {
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.container12 .container_add .our_item .about {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #4b4b4b4b;
+}
+
+.container12 .container_add .our_item .line_red_cont12 {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container12 .container_add .our_item .descr {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #999;
+    width: 95%;
+}
+
+.container12 .container_add .our_item img {
+    margin-right: 2rem !important;
+}
+
+/* 13 контейнер */
+
+.container13 .text1_cont13 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 22px;
+    margin-bottom: 0;
+    color: #333333;
+}
+
+.container13 .text2_cont13 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.container13 .line_red_heading {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: block;
+    margin: 0 auto;
+    margin-top: 43px;
+    margin-bottom: 87px;
+}
+
+/* 14 контейнер */
+
+/* 15 контейнер */

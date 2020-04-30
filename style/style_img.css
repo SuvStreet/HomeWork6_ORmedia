@@ -44,7 +44,8 @@
 
 .grid_cards .item{
 	position: relative;    
-	line-height: 0;
+    line-height: 0;
+    cursor: pointer;
 }
 
 .grid_cards .item:after{
@@ -88,6 +89,10 @@
     line-height: 1.7;
     z-index: 1;
     text-align: center;
+}
+
+.grid_cards .item .icon_cards .grid3{
+    top: 42%;
 }
 
 .grid_cards .item .icon_cards .text h4 {

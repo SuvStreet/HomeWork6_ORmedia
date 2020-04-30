@@ -8,7 +8,12 @@
     .content p {
         padding: 30px 100px 0;
     }
+}
 
+@media (max-width: 1200px) {
+    .container6 .container6_add .card_text {
+        height: 57px;
+    }
 }
 
 @media (max-width: 1150px) {
@@ -67,6 +72,17 @@
     }
 }
 
+@media (max-width: 992px) {
+    .container6 .container6_add .row .col_card {
+        padding-right: 74px;
+        padding-left: 74px;
+        margin-top: 30px;
+    }
+    .container6 .container6_add .card_text {
+        height: 130px;
+    }
+}
+
 @media (max-width: 950px) {
     .content p {
         font-size: 130px;
@@ -107,6 +123,14 @@
     }
     .content p {
         font-size: 100px;
+    }
+    .container12 .container_add .our_item .descr{
+        width: 100%;
+    }
+
+    .container6 .container6_add .row .col_card {
+        padding-right: 15px;
+        padding-left: 15px;
     }
 }
 
@@ -172,6 +196,8 @@
     .container4 .grid_icon .item_icon {  
         padding-bottom: 10px;
     }
+
+    
 }
 
 @media (max-width: 425px) {
