@@ -22,6 +22,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./style/media_request.css" />
+        <link rel="stylesheet" href="./style/animate.css" />
     </head>
     <body>
         <div class="wrapper">
@@ -195,12 +196,30 @@
 
             <!-- 5 контейнер -->
 
-            <section class="container5"></section>
+            <section class="container5">
+                <div class="center">
+                    <p>For all devices</p>
+                    <h2>Unique design</h2>
+                    <span>
+                        <i class="g_line_red"></i>
+                    </span>
+                    <img
+                        class="ipad_img wow slideInLeft"
+                        src="./img/cont5/ipad_cont5.png"
+                        alt="ipad"
+                    />
+                    <img
+                        class="iphone_img wow slideInRight"
+                        src="./img/cont5/iphone_cont5.png"
+                        alt="iphone"
+                    />
+                </div>
+            </section>
 
             <!-- 6 контейнер -->
 
-            <section class="container6">
-                <div class="container container6_add">
+            <section class="container6 center">
+                <div class="container-fluid container6_add">
                     <h4 class="text1_h4_cont6">Service</h4>
                     <h2 class="text2_h2_cont6">what we do</h2>
                     <span>
@@ -214,14 +233,14 @@
                         commodo consequat.
                     </p>
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col_card1">
                             <img
                                 src="./img/cont6/picture.png"
-                                class="rounded mx-auto d-block"
+                                class="rounded mx-auto d-block picture"
                                 alt="picture"
                             />
                         </div>
-                        <div class="col-xl-6 col-lg-6 col_card">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col_card2">
                             <div class="accordion" id="accordionExample">
                                 <div class="card indent_card">
                                     <div
@@ -407,7 +426,63 @@
 
             <!-- 8 контейнер -->
 
-            <section class="container8"></section>
+            <section class="container8 center">
+                <div class="container-fluid gallery">
+                    <h4 class="text1_h4_cont8">Who we are</h4>
+                    <h2 class="text2_h2_cont8">Meet our team</h2>
+                    <span>
+                        <i class="line_red_cont8"></i>
+                    </span>
+                    <p class="text3_p_cont8 center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                    <div class="row justify-content-between">
+                        <div class="card_add">
+                            <div>
+                                <img
+                                    src="./img/cont8/gallery1.png"
+                                    class="img-fluid"
+                                    alt="gallery1"
+                                />
+                            </div>
+                            <div class="text">
+                                <h5 class="mt-0">Matthew Dix</h5>
+                                <p class="about">Graphic Design</p>
+                            </div>
+                        </div>
+                        <div class="card_add">
+                            <div>
+                                <img
+                                    src="./img/cont8/gallery2.png"
+                                    class="img-fluid"
+                                    alt="gallery2"
+                                />
+                            </div>
+                            <div class="text">
+                                <h5 class="mt-0">Christopher Campbell</h5>
+                                <p class="about">Branding/UX design</p>
+                            </div>
+                        </div>
+                        <div class="card_add">
+                            <div>
+                                <img
+                                    src="./img/cont8/gallery3.png"
+                                    class="img-fluid"
+                                    alt="gallery3"
+                                />
+                            </div>
+                            <div class="text">
+                                <h5 class="mt-0">Michael Fertig</h5>
+                                <p class="about">Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!-- 9 контейнер -->
 
@@ -416,32 +491,32 @@
                     <div class="row">
                         <img
                             src="./img/hypster/img_1.png"
-                            class="img-fluid rounded mx-auto d-block"
+                            class="img-fluid rounded mx-auto d-block wow flip"
                             alt="img_1"
                         />
                         <img
                             src="./img/hypster/img_2.png"
-                            class="img-fluid rounded mx-auto d-block"
+                            class="img-fluid rounded mx-auto d-block wow flip"
                             alt="img_2"
                         />
                         <img
                             src="./img/hypster/img_3.png"
-                            class="img-fluid rounded mx-auto d-block"
+                            class="img-fluid rounded mx-auto d-block wow flip"
                             alt="img_3"
                         />
                         <img
                             src="./img/hypster/img_4.png"
-                            class="img-fluid rounded mx-auto d-block"
+                            class="img-fluid rounded mx-auto d-block wow flip"
                             alt="img_4"
                         />
                         <img
                             src="./img/hypster/img_5.png"
-                            class="img-fluid rounded mx-auto d-block"
+                            class="img-fluid rounded mx-auto d-block wow flip"
                             alt="img_5"
                         />
                         <img
                             src="./img/hypster/img_6.png"
-                            class="img-fluid rounded mx-auto d-block"
+                            class="img-fluid rounded mx-auto d-block wow flip"
                             alt="img_6"
                         />
                     </div>
@@ -704,5 +779,9 @@
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"
         ></script>
+        <script src="./script/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
     </body>
 </html>

@@ -229,7 +229,7 @@ header {
 
 /* 4 контейнер */
 
-.container4 p {
+.container4 p, .container5 p {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     margin-top: 100px;
@@ -237,7 +237,7 @@ header {
     text-align: center;
 }
 
-.container4 h2 {
+.container4 h2, .container5 h2 {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
@@ -245,7 +245,7 @@ header {
     text-transform: uppercase;
 }
 
-.container4 .g_line_red2 {
+.container4 .g_line_red2, .container5 .g_line_red {
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -305,17 +305,42 @@ header {
     background-image: url("../img/cont5/baground_cont5.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    /* урать при пополнении контента */
-    height: 940px;
+.container5 p {
+    padding-top: 105px;
+}
+
+.container5 .center {
+    position: relative;
+}
+
+.container5 .center img {
+    max-width: 100%;
+}
+
+.container5 .center .ipad_img {
+    margin-top: -45px;
+    margin-left: calc(50% - 285px);
+}
+
+.container5 .center .iphone_img {
+    position: absolute;
+    top: 467px;
+    left: calc(72% - 13%);
 }
 
 /* 6 контейнер */
 
+.container6 .container6_add {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .container6 .container6_add .text1_h4_cont6 {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: 110px;
     margin-bottom: 20px;
     text-align: center;
     color: #333333;
@@ -354,8 +379,16 @@ header {
 }
 
 .container6 .container6_add img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 0px !important;
+}
+
+.container6 .container6_add .row .col_card1 {
+    padding-right: 30px;
+}
+
+.container6 .container6_add .row .col_card2 {
+    padding-left: 0;
 }
 
 .container6 .container6_add .row .indent_card {
@@ -373,30 +406,38 @@ header {
     font-size: 15px;
     color: #999999;
     font-style: italic;
-    overflow: auto;
-    height: 117px;
+    overflow-y: scroll;
+    height: 137px;
     padding-top: 0px;
     margin-right: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-::-webkit-scrollbar {
+.container6 .container6_add .card_text::-webkit-scrollbar {
     width: 5px;
     position: absolute;
     /* height: 140px; */
 }
 
-::-webkit-scrollbar-track {
+.container6 .container6_add .card_text::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(245, 245, 245, 0.3);
     top: 10px;
     border-radius: 10px;
 }
  
-::-webkit-scrollbar-thumb {
+.container6 .container6_add .card_text::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(149, 225, 211,0.5); 
 }
+
+.container6
+    .container6_add
+    .row
+    .picture {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
 
 .container6
     .container6_add
@@ -531,6 +572,22 @@ header {
 
 /* 8 контейнер */
 
+.container8 .text1_h4_cont8 {
+    padding-top: 100px;
+}
+
+.container8 .gallery .card_add{
+    width: 32%;
+}
+
+.container8 .gallery .card_add div:first-child {
+    margin-bottom: 30px;
+}
+
+.container8 .gallery .card_add .text h5, .container8 .gallery .card_add .text .about{
+    text-align: center;
+}
+
 /* 9 контейнер */
 
 .container9 {
@@ -547,7 +604,7 @@ header {
 
 /* 10 контейнер */
 
-.container10 .text1_h4_cont10 {
+.container10 .text1_h4_cont10,  .container8 .text1_h4_cont8{
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     padding-top: 110px;
@@ -557,7 +614,7 @@ header {
     color: #333333;
 }
 
-.container10 .text2_h2_cont10 {
+.container10 .text2_h2_cont10, .container8 .text2_h2_cont8 {
     font-size: 30px;
     text-align: center;
     font-weight: 700;
@@ -566,7 +623,7 @@ header {
     color: #333333;
 }
 
-.container10 .line_red_cont10 {
+.container10 .line_red_cont10, .container8 .line_red_cont8 {
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -576,7 +633,7 @@ header {
     margin-bottom: 45px;
 }
 
-.container10 .text3_p_cont10 {
+.container10 .text3_p_cont10, .container8 .text3_p_cont8 {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     text-align: center;
@@ -657,14 +714,14 @@ header {
     padding-bottom: 70px;
 }
 
-.container12 .container_add .our_item h5 {
+.container12 .container_add .our_item h5, .container8 .gallery .card_add .text h5 {
     font-size: 14px;
     color: #333;
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.container12 .container_add .our_item .about {
+.container12 .container_add .our_item .about, .container8 .gallery .card_add .text .about {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 300;
