@@ -42,6 +42,87 @@
 
 /* Img container8 */
 
+.container8 .gallery .card_add img {
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.container8 .gallery .card_add .item {
+    position: relative;    
+    line-height: 0;
+    cursor: pointer;
+}
+
+.container8 .gallery .card_add .item .icon_messengers {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    grid-column-gap: 1px;
+    background-color: #e37879;
+    left: calc(50% - 115px);
+    top: 45%;
+    z-index: 100;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container8 .gallery .card_add .item:hover .icon_messengers {
+    transform: translate(-10px, -10px);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container8 .gallery .card_add .item .icon_messengers i {
+    background-color: #fce38a;
+    color: #f38181;
+    font-size: 26px;
+    padding: 16px;
+    transition: 0.5s;
+}
+
+.container8 .gallery .card_add .item .icon_messengers i:first-child,
+.container8 .gallery .card_add .item .icon_messengers i:nth-child(3) {
+    padding-left: 20px;
+}
+
+.container8 .gallery .card_add .item .icon_messengers i:last-child {
+    padding-left: 18px;
+}
+
+.container8 .gallery .card_add .item .icon_messengers i:hover {
+    background-color: #e37879;
+    color: white;
+    transition: 0.5s;
+}
+
+.container8 .gallery .card_add .item:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(to bottom, #e37879, #eed181);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container8 .gallery .card_add .item:hover:after {
+    transform: translate(-10px, -10px);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.container8 .gallery .card_add .item:hover img{
+    transform: translate(-10px, -10px);
+    box-shadow: rgba(149, 225, 211, 1) 10px 10px;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
 /* Img container10 */
 
 .grid_cards .item{

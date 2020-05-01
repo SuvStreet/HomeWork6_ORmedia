@@ -157,8 +157,8 @@
 }
 
 @media (max-width: 600px) {
-    .cards .item,
-    .gallery .card_add {
+    .container2 .cards .item,
+    .container8 .gallery .card_add {
         width: 100%;
     }
     .content h2 {

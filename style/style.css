@@ -580,7 +580,7 @@ header {
     width: 32%;
 }
 
-.container8 .gallery .card_add div:first-child {
+.container8 .gallery .card_add div{
     margin-bottom: 30px;
 }
 
