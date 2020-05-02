@@ -229,7 +229,8 @@ header {
 
 /* 4 контейнер */
 
-.container4 p, .container5 p {
+.container4 p,
+.container5 p {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     margin-top: 100px;
@@ -237,7 +238,8 @@ header {
     text-align: center;
 }
 
-.container4 h2, .container5 h2 {
+.container4 h2,
+.container5 h2 {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
@@ -245,7 +247,8 @@ header {
     text-transform: uppercase;
 }
 
-.container4 .g_line_red2, .container5 .g_line_red {
+.container4 .g_line_red2,
+.container5 .g_line_red {
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -401,7 +404,7 @@ header {
     margin-bottom: 0px;
 }
 
-.container6 .container6_add .card_text{
+.container6 .container6_add .card_text {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     color: #999999;
@@ -425,27 +428,18 @@ header {
     top: 10px;
     border-radius: 10px;
 }
- 
+
 .container6 .container6_add .card_text::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(149, 225, 211,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(149, 225, 211, 0.5);
 }
 
-.container6
-    .container6_add
-    .row
-    .picture {
-        margin-left: 0!important;
-        margin-right: 0!important;
-    }
+.container6 .container6_add .row .picture {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 
-.container6
-    .container6_add
-    .row
-    .accordion
-    .card
-    .card-header
-    .icon1_h5_cont6 {
+.container6 .container6_add .row .accordion .card .card-header .icon1_h5_cont6 {
     position: relative;
 }
 
@@ -465,13 +459,7 @@ header {
     position: absolute;
 }
 
-.container6
-    .container6_add
-    .row
-    .accordion
-    .card
-    .card-header
-    .icon2_h5_cont6 {
+.container6 .container6_add .row .accordion .card .card-header .icon2_h5_cont6 {
     position: relative;
 }
 
@@ -491,13 +479,7 @@ header {
     position: absolute;
 }
 
-.container6
-    .container6_add
-    .row
-    .accordion
-    .card
-    .card-header
-    .icon3_h5_cont6 {
+.container6 .container6_add .row .accordion .card .card-header .icon3_h5_cont6 {
     position: relative;
 }
 
@@ -517,13 +499,7 @@ header {
     position: absolute;
 }
 
-.container6
-    .container6_add
-    .row
-    .accordion
-    .card
-    .card-header
-    .panel-title {
+.container6 .container6_add .row .accordion .card .card-header .panel-title {
     position: relative;
 }
 
@@ -576,15 +552,16 @@ header {
     padding-top: 100px;
 }
 
-.container8 .gallery .card_add{
+.container8 .gallery .card_add {
     width: 32%;
 }
 
-.container8 .gallery .card_add div{
+.container8 .gallery .card_add div {
     margin-bottom: 30px;
 }
 
-.container8 .gallery .card_add .text h5, .container8 .gallery .card_add .text .about{
+.container8 .gallery .card_add .text h5,
+.container8 .gallery .card_add .text .about {
     text-align: center;
 }
 
@@ -604,7 +581,8 @@ header {
 
 /* 10 контейнер */
 
-.container10 .text1_h4_cont10,  .container8 .text1_h4_cont8{
+.container10 .text1_h4_cont10,
+.container8 .text1_h4_cont8 {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     padding-top: 110px;
@@ -614,7 +592,8 @@ header {
     color: #333333;
 }
 
-.container10 .text2_h2_cont10, .container8 .text2_h2_cont8 {
+.container10 .text2_h2_cont10,
+.container8 .text2_h2_cont8 {
     font-size: 30px;
     text-align: center;
     font-weight: 700;
@@ -623,7 +602,8 @@ header {
     color: #333333;
 }
 
-.container10 .line_red_cont10, .container8 .line_red_cont8 {
+.container10 .line_red_cont10,
+.container8 .line_red_cont8 {
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -633,7 +613,8 @@ header {
     margin-bottom: 45px;
 }
 
-.container10 .text3_p_cont10, .container8 .text3_p_cont8 {
+.container10 .text3_p_cont10,
+.container8 .text3_p_cont8 {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     text-align: center;
@@ -714,14 +695,16 @@ header {
     padding-bottom: 70px;
 }
 
-.container12 .container_add .our_item h5, .container8 .gallery .card_add .text h5 {
+.container12 .container_add .our_item h5,
+.container8 .gallery .card_add .text h5 {
     font-size: 14px;
     color: #333;
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.container12 .container_add .our_item .about, .container8 .gallery .card_add .text .about {
+.container12 .container_add .our_item .about,
+.container8 .gallery .card_add .text .about {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -777,9 +760,100 @@ header {
     display: block;
     margin: 0 auto;
     margin-top: 43px;
-    margin-bottom: 87px;
+    margin-bottom: 47px;
+}
+
+.container13 .cardGrid_cont13 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 {
+    position: relative;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 .date {
+    position: absolute;
+    background-color: #95e1d3;
+    line-height: 0.8em;
+    text-align: center;
+    top: calc(48% - 8%);
+    left: -9px;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 .date h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 17%;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 .date p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 25%;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 img {
+    width: 100%;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 .text3_cont13 {
+    border-bottom: 1px #95e1d3 solid;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 .text3_cont13 h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 .text3_cont13 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #9f9f9f;
+    margin-bottom: 17px;
+    padding-right: 1%;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 .views_comments_cont13 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 .views_comments_cont13 i {
+    font-size: 17px;
+    margin-right: 5px;
+    margin-top: 3px;
+    color: #95e1d3;
+}
+
+.container13 .cardGrid_cont13 .card_cont13 .views_comments_cont13 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    color: #999999;
 }
 
 /* 14 контейнер */
+
+.container14 {
+    height: 250px;
+}
 
 /* 15 контейнер */
