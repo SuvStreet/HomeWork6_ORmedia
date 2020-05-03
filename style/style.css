@@ -768,6 +768,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 30px;
+    margin-bottom: 115px;
 }
 
 .container13 .cardGrid_cont13 .card_cont13 {
@@ -853,7 +854,47 @@ header {
 /* 14 контейнер */
 
 .container14 {
-    height: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container14 a {
+    text-decoration: none;
+}
+
+.container14  .setting_cont14 .cont14{
+    position: relative;
+    padding-bottom: 55px;
+    z-index: 100;
+}
+
+.container14 i {
+    font-size: 27px;
+    color: #f38181;
+    margin-top: 57px;
+    margin-bottom: 15px;
+}
+
+.container14 p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f38181;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.container14 .line_red_cont14 {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 /* 15 контейнер */
+
+
+.container15 {
+     margin-top: 100px;
+}

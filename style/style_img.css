@@ -145,7 +145,7 @@
     transition: 0.5s;
 }
 
- .grid_cards .item:hover:after {
+.grid_cards .item:hover:after {
     transition: 0.5s;
     opacity: 0.8;
 }
@@ -205,4 +205,38 @@
 .grid_cards .item:hover .icon_cards .text p {
     opacity: 1;
     transition: 0.5s;
+}
+
+/* Img container14 */
+
+.container14 .setting_cont14 {
+    position: relative;
+    background-size: cover;
+    background-image: url(../img/cont14/map_cont14.png);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    background-position: center;
+}
+
+.container14 .setting_cont14:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-color: #e5e5e5;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.container14 .setting_cont14:hover {
+    transform: scale(1.2);
+}
+
+.container14 .setting_cont14:hover:after {
+    transition: 0.5s;
+    opacity: 0;
 }
