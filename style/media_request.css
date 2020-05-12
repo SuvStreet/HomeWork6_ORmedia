@@ -49,6 +49,24 @@
     .menu {
         display: none;
     }
+
+    .container1 .burger {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-color: #f0d189;
+    }
+    .container1 .burger i {
+        display: block;
+        width: 80%;
+        height: 5px;
+        margin: 3px;
+        background-color: white;
+    }
+    .container1 .show {
+        display: block;
+    }
+
     .container2 .cards .item,
     .container8 .gallery .card_add {
         width: 48%;
@@ -149,7 +167,7 @@
     }
     .content p {
         font-size: 124px;
-    }  
+    }
 }
 
 @media (max-width: 795px) {
@@ -230,7 +248,11 @@
     .container13 .cardGrid_cont13 .card_cont13 .date {
         top: calc(49% - 25%);
     }
-    .container13 .cardGrid_cont13 .card_cont13:nth-last-child(2) .text3_cont13 p {
+    .container13
+        .cardGrid_cont13
+        .card_cont13:nth-last-child(2)
+        .text3_cont13
+        p {
         margin-bottom: 17px;
     }
 }
@@ -357,13 +379,13 @@
     }
 }
 
-@media (max-width: 350px){
+@media (max-width: 350px) {
     .container13 .cardGrid_cont13 .card_cont13 .date {
         top: calc(55% - 30%);
     }
 }
 
-@media (max-width: 300px){
+@media (max-width: 300px) {
     .container13 .cardGrid_cont13 .card_cont13 .date {
         top: calc(55% - 33%);
     }

@@ -14,7 +14,6 @@
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="./style/style.css" />
         <link rel="shortcut icon" href="./img/icon.jpg" type="image/jpg" />
         <link rel="stylesheet" href="./style/style_img.css" />
         <link
@@ -23,6 +22,10 @@
         />
         <link rel="stylesheet" href="./style/media_request.css" />
         <link rel="stylesheet" href="./style/animate.css" />
+        <link rel="stylesheet" href="./style/owl.carousel.min.css" />
+        <link rel="stylesheet" href="./style/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="./style/style.css" />
+        <link rel="stylesheet" href="./preprocessor/style_sass.css" />
     </head>
     <body>
         <div class="wrapper">
@@ -31,7 +34,7 @@
             <section class="container1">
                 <header class="center">
                     <span class="logo">MoGo</span>
-                    <nav class="menu">
+                    <nav class="menu" id="menu">
                         <ul>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Service</a></li>
@@ -42,14 +45,47 @@
                             <li><i class="fas fa-search"></i></li>
                         </ul>
                     </nav>
-                </header>
-                <div class="content center">
-                    <h2>Creative Template</h2>
-                    <p>Welcome to MoGo</p>
-                    <span>
-                        <i class="g_line"></i>
+
+                    <span class="burger" id="burger">
+                        <i></i>
+                        <i></i>
+                        <i></i>
                     </span>
-                    <a href="#" class="btn">Learn more</a>
+                </header>
+
+                <div class="owl-carousel slide-one">
+                    <div class="content center">
+                        <h2>Creative Template</h2>
+                        <p>Welcome to MoGo</p>
+                        <span>
+                            <i class="g_line"></i>
+                        </span>
+                        <a href="#" class="btn">Learn more</a>
+                    </div>
+                    <div class="content center">
+                        <h2>Creative Template</h2>
+                        <p>Welcome to MoGo</p>
+                        <span>
+                            <i class="g_line"></i>
+                        </span>
+                        <a href="#" class="btn">Learn more</a>
+                    </div>
+                    <div class="content center">
+                        <h2>Creative Template</h2>
+                        <p>Welcome to MoGo</p>
+                        <span>
+                            <i class="g_line"></i>
+                        </span>
+                        <a href="#" class="btn">Learn more</a>
+                    </div>
+                    <div class="content center">
+                        <h2>Creative Template</h2>
+                        <p>Welcome to MoGo</p>
+                        <span>
+                            <i class="g_line"></i>
+                        </span>
+                        <a href="#" class="btn">Learn more</a>
+                    </div>
                 </div>
             </section>
 
@@ -232,7 +268,9 @@
                         exercitation ullamco laboris nisi ut aliquip ex ea
                         commodo consequat.
                     </p>
-                    <div class="row">
+
+                    <!-- позиционирование bootstrap -->
+                    <div class="row row_new">
                         <div class="col-xl-6 col-lg-6 col-md-6 col_card1">
                             <img
                                 src="./img/cont6/picture.png"
@@ -417,12 +455,63 @@
                             </div>
                         </div>
                     </div>
+                    <!-- позиционирование bootstrap -->
                 </div>
             </section>
 
             <!-- 7 контейнер -->
 
-            <section class="container7"></section>
+            <section class="container7">
+                <!-- owl-карусель вторая -->
+                <div class="owl-carousel slide-two center">
+                    <!-- первый слайд -->
+                    <div class="content_owl_cont7">
+                        <div>
+                            <div class="img_owl">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="text_owl">
+                            <p>
+                                “Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud
+                                exercitation.”
+                            </p>
+                            <div class="pos_line">
+                                <span>
+                                    <i class="line_red_cont7"></i>
+                                </span>
+                                <h5>Jon Doe</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- второй слайд -->
+                    <div class="content_owl_cont7">
+                        <div>
+                            <div class="img_owl">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="text_owl">
+                            <p>
+                                “Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud
+                                exercitation.”
+                            </p>
+                            <div class="pos_line">
+                                <span>
+                                    <i class="line_red_cont7"></i>
+                                </span>
+                                <h5>Jon Doe</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!-- 8 контейнер -->
 
@@ -663,7 +752,28 @@
 
             <!-- 11 контейнер -->
 
-            <section class="container11"></section>
+            <section class="container11 center">
+                <div class="owl-carousel3">
+                    <div class="content_carousel .slide-three">
+                        <div>
+                            <div class="avatar"></div>
+                        </div>
+                        <div>
+                            <p>
+                                “Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud
+                                exercitation.”
+                            </p>
+                            <span>
+                                <i class="line_red_cont11"></i>
+                            </span>
+                            <h5>Joshua Earle</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!-- 12 контейнер -->
 
@@ -846,7 +956,10 @@
             <!-- 14 контейнер -->
 
             <section class="container14">
-                <a href="https://www.google.by/maps?hl=ru&tab=rl" target="_blank">
+                <a
+                    href="https://www.google.by/maps?hl=ru&tab=rl"
+                    target="_blank"
+                >
                     <div class="setting_cont14">
                         <div class="center cont14">
                             <i class="fas fa-map-marker-alt"></i>
@@ -861,14 +974,157 @@
 
             <!-- 15 контейнер -->
 
-            <section class="container15 center">
-                <div></div>
-                <div></div>
-                <div></div>
+            <section class="container15">
+                <div class="center">
+                    <div class="footer">
+                        <div class="footer_left">
+                            <div class="footer_left_top">
+                                <h2>MoGo</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat.
+                                </p>
+                                <h5>
+                                    <span class="bold_text">15k</span> followers
+                                </h5>
+                            </div>
+                            <div class="footer_left_icon">
+                                <p>Follow Us:</p>
+                                <div class="icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-pinterest-p"></i>
+                                    <i class="fab fa-google-plus"></i>
+                                    <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-dribbble"></i>
+                                    <i class="fab fa-tumblr"> </i>
+                                </div>
+                            </div>
+
+                            <div class="input-group mb-3 input_setting">
+                                <input
+                                    type="text"
+                                    class="form-control form_setting"
+                                    placeholder="Your Email..."
+                                    aria-label="Your Email..."
+                                    aria-describedby="basic-addon2"
+                                />
+                                <div class="input-group-append bg_btn">
+                                    <button
+                                        type="button"
+                                        class="btn btn-primary btn-lg btn-block text_setting"
+                                    >
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_centr">
+                            <h3>Blogs</h3>
+                            <div class="news_blogs">
+                                <div>
+                                    <img
+                                        src="./img/cont15/blog_img1_cont15.png"
+                                        alt="blog_img1"
+                                    />
+                                </div>
+                                <div>
+                                    <h4>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing
+                                    </h4>
+                                    <p>
+                                        Jan 9, 2016
+                                    </p>
+                                </div>
+                                <div>
+                                    <img
+                                        src="./img/cont15/blog_img2_cont15.png"
+                                        alt="blog_img2"
+                                    />
+                                </div>
+                                <div>
+                                    <h4>
+                                        Consectetur adipiscing elit, sed do
+                                        eiusmod tempor
+                                    </h4>
+                                    <p>
+                                        Jan 9, 2016
+                                    </p>
+                                </div>
+                                <div>
+                                    <img
+                                        src="./img/cont15/blog_img3_cont15.png"
+                                        alt="blog_img3"
+                                    />
+                                </div>
+                                <div>
+                                    <h4>
+                                        sed do eiusmod tempor incididunt ut
+                                        labore
+                                    </h4>
+                                    <p>
+                                        Jan 9, 2016
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_right">
+                            <h3>instagram</h3>
+                            <div class="gallery_photos">
+                                <img
+                                    src="./img/cont15/instagram_img1_cont15.png"
+                                    alt="instagram_img1"
+                                />
+                                <img
+                                    src="./img/cont15/instagram_img2_cont15.png"
+                                    alt="instagram_img2"
+                                />
+                                <img
+                                    src="./img/cont15/instagram_img3_cont15.png"
+                                    alt="instagram_img3"
+                                />
+                                <img
+                                    src="./img/cont15/instagram_img4_cont15.png"
+                                    alt="instagram_img4"
+                                />
+                                <img
+                                    src="./img/cont15/instagram_img5_cont15.png"
+                                    alt="instagram_img5"
+                                />
+                                <img
+                                    src="./img/cont15/instagram_img6_cont15.png"
+                                    alt="instagram_img6"
+                                />
+                                <img
+                                    src="./img/cont15/instagram_img7_cont15.png"
+                                    alt="instagram_img7"
+                                />
+                                <img
+                                    src="./img/cont15/instagram_img8_cont15.png"
+                                    alt="instagram_img8"
+                                />
+                                <img
+                                    src="./img/cont15/instagram_img9_cont15.png"
+                                    alt="instagram_img9"
+                                />
+                            </div>
+                            <p>View more photos</p>
+                        </div>
+                    </div>
+                    <p>
+                        © 2018 MoGo template by Laaqiq
+                    </p>
+                </div>
             </section>
         </div>
 
-        <!-- Bootstrap -->
+        <!-- Bootstrap & js -->
 
         <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -888,6 +1144,32 @@
         <script src="./script/wow.min.js"></script>
         <script>
             new WOW().init();
+        </script>
+        <script src="./script/script.js"></script>
+        <script src="./script/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".slide-one").owlCarousel({
+                    items: 1,
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".slide-two").owlCarousel({
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    dots: false,
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".slide-three").owlCarousel({
+                    items: 1,
+                });
+            });
         </script>
     </body>
 </html>
