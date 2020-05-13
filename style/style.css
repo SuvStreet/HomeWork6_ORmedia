@@ -664,18 +664,6 @@ header {
 
 /* 11 контейнер */
 
-.container11 .content_carousel {
-    display: flex;
-}
-
-.container11 .content_carousel .avatar {
-    background-image: url(../img/cont11/img_circle.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-}
-
 /* 12 контейнер */
 
 .container12 {

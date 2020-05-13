@@ -9,6 +9,12 @@
   padding: 70px 0;
 }
 
+.container7 .slide-two .content_owl_cont7 .pos_vert {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .content_owl_cont7 .img_owl {
   border: 3px solid #95e1d3;
   width: 145px;
@@ -22,7 +28,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 30p;
+  margin-right: 30px;
 }
 
 .content_owl_cont7 .img_owl i {

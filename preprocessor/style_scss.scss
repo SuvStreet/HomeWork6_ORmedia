@@ -1,0 +1,132 @@
+.container11 {
+    .content_carousel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 85px 65px 110px 65px;
+    }
+}
+
+.container11 {
+    .content_carousel {
+        .avatar {
+            background-image: url(../img/cont11/img_circle.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
+
+.container11 {
+    .content_carousel {
+        .text_blok_cont11 {
+            font-family: "Roboto", sans-serif;
+            font-size: 24px;
+            color: #999999;
+            font-style: italic;
+            padding-left: 15px;
+        }
+    }
+}
+
+.container11 {
+    .content_carousel {
+        .pos_gor_cont11 {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.container11 {
+    .content_carousel {
+        .pos_gor_cont11 {
+            .line_red_cont11 {
+                width: 60px;
+                height: 3px;
+                background-color: #f38181;
+                display: block;
+            }
+        }
+    }
+}
+
+.container11 {
+    .content_carousel {
+        .pos_gor_cont11 {
+            h5 {
+                font-family: "Kaushan Script", cursive;
+                font-size: 24px;
+                padding-left: 10px;
+                color: #333333;
+            }
+        }
+    }
+}
+
+.container11 {
+    .slide-three {
+        .owl-nav {
+            font-size: 60px;
+            color: #cccccc;
+        }
+    }
+}
+
+.container11 {
+    .slide-three {
+        .owl-nav {
+            .owl-prev {
+                position: absolute;
+                height: 100%;
+                width: 65px;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+}
+
+.container11 {
+    .slide-three {
+        .owl-nav {
+            .owl-prev {
+                span {
+                    position: absolute;
+                    left: 20px;
+                    top: 35%;
+                }
+            }
+        }
+    }
+}
+
+.container11 {
+    .slide-three {
+        .owl-nav {
+            .owl-next {
+                position: absolute;
+                height: 100%;
+                width: 65px;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+}
+
+.container11 {
+    .slide-three {
+        .owl-nav {
+            .owl-next {
+                span {
+                    position: absolute;
+                    right: 20px;
+                    top: 35%;
+                }
+            }
+        }
+    }
+}

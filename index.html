@@ -20,12 +20,13 @@
             href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;700&family=Roboto:ital,wght@0,400;1,300&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="./style/media_request.css" />
         <link rel="stylesheet" href="./style/animate.css" />
         <link rel="stylesheet" href="./style/owl.carousel.min.css" />
         <link rel="stylesheet" href="./style/owl.theme.default.min.css" />
         <link rel="stylesheet" href="./style/style.css" />
         <link rel="stylesheet" href="./preprocessor/style_sass.css" />
+        <link rel="stylesheet" href="./preprocessor/style_scss.css" />
+        <link rel="stylesheet" href="./style/media_request.css" />
     </head>
     <body>
         <div class="wrapper">
@@ -466,7 +467,7 @@
                 <div class="owl-carousel slide-two center">
                     <!-- первый слайд -->
                     <div class="content_owl_cont7">
-                        <div>
+                        <div class="pos_vert">
                             <div class="img_owl">
                                 <i class="fas fa-comments"></i>
                             </div>
@@ -753,12 +754,14 @@
             <!-- 11 контейнер -->
 
             <section class="container11 center">
-                <div class="owl-carousel3">
-                    <div class="content_carousel .slide-three">
+                <!-- owl-карусель третья -->
+                <div class="owl-carousel slide-three">
+                    <!-- первый слайд -->
+                    <div class="content_carousel">
                         <div>
                             <div class="avatar"></div>
                         </div>
-                        <div>
+                        <div class="text_blok_cont11">
                             <p>
                                 “Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor
@@ -766,10 +769,33 @@
                                 enim ad minim veniam, quis nostrud
                                 exercitation.”
                             </p>
-                            <span>
-                                <i class="line_red_cont11"></i>
-                            </span>
-                            <h5>Joshua Earle</h5>
+                            <div class="pos_gor_cont11">
+                                <span>
+                                    <i class="line_red_cont11"></i>
+                                </span>
+                                <h5>Joshua Earle</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- второй слайд -->
+                    <div class="content_carousel">
+                        <div>
+                            <div class="avatar"></div>
+                        </div>
+                        <div class="text_blok_cont11">
+                            <p>
+                                “Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud
+                                exercitation.”
+                            </p>
+                            <div class="pos_gor_cont11">
+                                <span>
+                                    <i class="line_red_cont11"></i>
+                                </span>
+                                <h5>Joshua Earle</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1168,6 +1194,9 @@
             $(document).ready(function () {
                 $(".slide-three").owlCarousel({
                     items: 1,
+                    nav: true,
+                    loop: true,
+                    dots: false,
                 });
             });
         </script>
