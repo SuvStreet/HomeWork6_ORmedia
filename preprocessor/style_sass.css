@@ -2,17 +2,14 @@
   background-color: #f8f8f8;
 }
 
-.container7 .content_owl_cont7 {
+.container7 .slide-two .content_owl_cont7 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 70px 0;
-}
-
-.container7 .slide-two .content_owl_cont7 .pos_vert {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .content_owl_cont7 .img_owl {

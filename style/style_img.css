@@ -1,9 +1,9 @@
-.cards .item img {
+.container2 .cards .item img {
     width: 100%;
     transition: 0.5s ease-in-out;
 }
 
-.cards .item .icon {
+.container2 .cards .item .icon {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -12,27 +12,28 @@
     transition: 0.5s;
 }
 
-.cards .item .icon:hover {
+.container2 .cards .item .icon:hover {
     opacity: 1;
     visibility: visible;
     transform: translate(-10px, -10px);
 }
 
-.cards .item:hover img {
+.container2 .cards .item:hover img {
     transform: translate(-10px, -10px);
     box-shadow: rgba(149, 225, 211, 1) 10px 10px;
     transition: 0.5s;
 }
 
-.cards .item .user {
+.container2 .cards .item .user {
     height: 100%;
     background-image: url("../img/USERS.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.cards .item .user p {
+.container2 .cards .item .user p {
     font-family: "Montserrat", sans-serif;
+    text-decoration: none;
     text-transform: uppercase;
     padding-top: 40%;
     color: white;
@@ -125,13 +126,13 @@
 
 /* Img container10 */
 
-.grid_cards .item{
+.container10 .grid_cards .item{
 	position: relative;    
     line-height: 0;
     cursor: pointer;
 }
 
-.grid_cards .item:after{
+.container10 .grid_cards .item:after{
     content: "";
     display: block;
     width: 100%;
@@ -145,12 +146,12 @@
     transition: 0.5s;
 }
 
-.grid_cards .item:hover:after {
+.container10 .grid_cards .item:hover:after {
     transition: 0.5s;
     opacity: 0.8;
 }
 
-.grid_cards .item .icon_cards i{
+.container10 .grid_cards .item .icon_cards i{
     position: absolute;
     top: 34%;
     left: calc(50% - 17px);
@@ -160,12 +161,12 @@
     opacity: 0;
     transition: 0.5s;
 }
-.grid_cards .item:hover .icon_cards i{
+.container10 .grid_cards .item:hover .icon_cards i{
     opacity: 1;
     transition: 0.5s;
 }
 
-.grid_cards .item .icon_cards .text{
+.container10 .grid_cards .item .icon_cards .text{
     position: absolute;
     left: calc(50% - 86px);
     top: 52%;
@@ -174,11 +175,11 @@
     text-align: center;
 }
 
-.grid_cards .item .icon_cards .grid3{
+.container10 .grid_cards .item .icon_cards .grid3{
     top: 42%;
 }
 
-.grid_cards .item .icon_cards .text h4 {
+.container10 .grid_cards .item .icon_cards .text h4 {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
@@ -187,12 +188,12 @@
     transition: 0.5s;
 }
 
-.grid_cards .item:hover .icon_cards .text h4 {
+.container10 .grid_cards .item:hover .icon_cards .text h4 {
     opacity: 1;
     transition: 0.5s;
 }
 
-.grid_cards .item .icon_cards .text p {
+.container10 .grid_cards .item .icon_cards .text p {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: white;
@@ -202,7 +203,7 @@
     transition: 0.5s;
 } 
 
-.grid_cards .item:hover .icon_cards .text p {
+.container10 .grid_cards .item:hover .icon_cards .text p {
     opacity: 1;
     transition: 0.5s;
 }

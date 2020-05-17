@@ -30,12 +30,12 @@
     </head>
     <body>
         <div class="wrapper">
-            <!-- 1 контейнер -->
 
+            <!-- 1 контейнер -->
             <section class="container1">
                 <header class="center">
                     <span class="logo">MoGo</span>
-                    <nav class="menu" id="menu">
+                    <nav class="menu">
                         <ul>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Service</a></li>
@@ -54,6 +54,23 @@
                     </span>
                 </header>
 
+                <div class="menu_burger" id="menu_burger">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><i class="fas fa-shopping-cart"></i></li>
+                            <li><i class="fas fa-search"></i></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+
+
                 <div class="owl-carousel slide-one">
                     <div class="content center">
                         <h2>Creative Template</h2>
@@ -64,24 +81,24 @@
                         <a href="#" class="btn">Learn more</a>
                     </div>
                     <div class="content center">
-                        <h2>Creative Template</h2>
-                        <p>Welcome to MoGo</p>
+                        <h2>We work with</h2>
+                        <p>Amazing Services</p>
                         <span>
                             <i class="g_line"></i>
                         </span>
                         <a href="#" class="btn">Learn more</a>
                     </div>
                     <div class="content center">
-                        <h2>Creative Template</h2>
-                        <p>Welcome to MoGo</p>
+                        <h2>What we do</h2>
+                        <p>Story about us</p>
                         <span>
                             <i class="g_line"></i>
                         </span>
                         <a href="#" class="btn">Learn more</a>
                     </div>
                     <div class="content center">
-                        <h2>Creative Template</h2>
-                        <p>Welcome to MoGo</p>
+                        <h2>Who we are</h2>
+                        <p>Meet our team</p>
                         <span>
                             <i class="g_line"></i>
                         </span>
@@ -106,7 +123,7 @@
                 </p>
                 <div class="cards">
                     <div class="item">
-                        <a href="#">
+                        <a href="#" onclick="return false">
                             <img src="./img/card1.png" alt="card1" />
                             <div class="icon">
                                 <div class="user">
@@ -118,7 +135,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="#" onclick="return false">
                             <img src="./img/card2.png" alt="card2" />
                             <div class="icon">
                                 <div class="user">
@@ -130,7 +147,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="#" onclick="return false">
                             <img src="./img/card3.png" alt="card3" />
                             <div class="icon">
                                 <div class="user">
@@ -906,15 +923,18 @@
                     <i class="line_red_heading"></i>
                 </span>
                 <div class="cardGrid_cont13">
+                    
                     <div class="card_cont13">
-                        <div class="date">
-                            <h3>15</h3>
-                            <p>Jan</p>
+                        <div class="card_date_cont13">
+                            <div class="date">
+                                <h3>15</h3>
+                                <p>Jan</p>
+                            </div>
+                            <img
+                                src="./img/cont13/img1_cont13.png"
+                                alt="img1_cont13"
+                            />
                         </div>
-                        <img
-                            src="./img/cont13/img1_cont13.png"
-                            alt="img1_cont13"
-                        />
                         <div class="text3_cont13">
                             <h2>Lorem ipsum dolor sit amet</h2>
                             <p>
@@ -931,6 +951,7 @@
                         </div>
                     </div>
                     <div class="card_cont13">
+                        <div class="card_date_cont13">
                         <div class="date">
                             <h3>14</h3>
                             <p>Jan</p>
@@ -939,6 +960,7 @@
                             src="./img/cont13/img2_cont13.png"
                             alt="img2_cont13"
                         />
+                    </div>
                         <div class="text3_cont13">
                             <h2>sed do eiusmod tempor</h2>
                             <p>
@@ -954,6 +976,7 @@
                         </div>
                     </div>
                     <div class="card_cont13">
+                        <div class="card_date_cont13">
                         <div class="date">
                             <h3>12</h3>
                             <p>Jan</p>
@@ -962,6 +985,7 @@
                             src="./img/cont13/img3_cont13.png"
                             alt="img3_cont13"
                         />
+                    </div>
                         <div class="text3_cont13">
                             <h2>incididunt ut labore et dolore</h2>
                             <p>
@@ -1040,7 +1064,7 @@
                                     aria-label="Your Email..."
                                     aria-describedby="basic-addon2"
                                 />
-                                <div class="input-group-append bg_btn">
+                                <div class="input-group-append">
                                     <button
                                         type="button"
                                         class="btn btn-primary btn-lg btn-block text_setting"
@@ -1048,7 +1072,8 @@
                                         Subscribe
                                     </button>
                                 </div>
-                            </div>
+                            </div> 
+
                         </div>
                         <div class="footer_centr">
                             <h3>Blogs</h3>
@@ -1059,7 +1084,7 @@
                                         alt="blog_img1"
                                     />
                                 </div>
-                                <div>
+                                <div class="link_news">
                                     <h4>
                                         Lorem ipsum dolor sit amet, consectetur
                                         adipiscing
@@ -1074,7 +1099,7 @@
                                         alt="blog_img2"
                                     />
                                 </div>
-                                <div>
+                                <div class="link_news">
                                     <h4>
                                         Consectetur adipiscing elit, sed do
                                         eiusmod tempor
@@ -1089,7 +1114,7 @@
                                         alt="blog_img3"
                                     />
                                 </div>
-                                <div>
+                                <div class="link_news">
                                     <h4>
                                         sed do eiusmod tempor incididunt ut
                                         labore
@@ -1143,8 +1168,8 @@
                             <p>View more photos</p>
                         </div>
                     </div>
-                    <p>
-                        © 2018 MoGo template by Laaqiq
+                    <p class="footer_text">
+                        © 2018 MoGo template by <span>Laaqiq</span>
                     </p>
                 </div>
             </section>
@@ -1167,6 +1192,7 @@
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"
         ></script>
+        <script src="./script/href.js"></script>
         <script src="./script/wow.min.js"></script>
         <script>
             new WOW().init();
@@ -1177,6 +1203,7 @@
             $(document).ready(function () {
                 $(".slide-one").owlCarousel({
                     items: 1,
+                    loop: true
                 });
             });
         </script>
@@ -1187,6 +1214,7 @@
                     nav: true,
                     loop: true,
                     dots: false,
+                    padding: 0
                 });
             });
         </script>
@@ -1196,7 +1224,7 @@
                     items: 1,
                     nav: true,
                     loop: true,
-                    dots: false,
+                    dots: false
                 });
             });
         </script>
