@@ -13,10 +13,12 @@ setInterval(function(){
         document.querySelector('.container1').classList.add('container1_intro')
         document.querySelector('.container1').classList.remove('container1_contact')
         document.querySelector('.container1').classList.remove('container1_work')
+        document.querySelector('.container1').classList.remove('container1_about')
     } else if (document.querySelectorAll('.owl-dot')[1].className === 'owl-dot active'){
         document.querySelector('.container1').classList.add('container1_work')
         document.querySelector('.container1').classList.remove('container1_intro')
         document.querySelector('.container1').classList.remove('container1_about')
+        document.querySelector('.container1').classList.remove('container1_contact')
     } else if (document.querySelectorAll('.owl-dot')[2].className === 'owl-dot active'){
         document.querySelector('.container1').classList.add('container1_about')
         document.querySelector('.container1').classList.remove('container1_work')
